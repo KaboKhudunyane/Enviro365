@@ -15,7 +15,7 @@ public class CollectionPointService {
     public CollectionPointService(CollectionPointRepository collectionPointRepository) {
         this.collectionPointRepository = collectionPointRepository;
     }
-    //create
+    //create + update
     public CollectionPoint createCollectionPoint(CollectionPoint collectionPoint){
         return collectionPointRepository.save(collectionPoint);
     }
